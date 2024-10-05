@@ -1,0 +1,48 @@
+.tableContainer {
+    padding: 20px;
+  }
+  
+.custom-table {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+  
+th, td {
+    padding: 10px;
+    border: 1px solid rgb(87, 16, 109); 
+    background-color: #781E77;
+    color: #FFFFFF;
+    text-align: center;
+}
+  
+.roxo-escuro {
+    background-color: #781E77; 
+    color: white;
+    padding: 0 20px 0;
+}
+  
+.text{
+    text-align: center;
+}
+  
+.roxo-claro {
+    background-color: rgba(120, 30, 119, 0.2); 
+    color: rgb(0, 0, 0); 
+}
+  
+.selectable {
+    background-color: #781E77; 
+    color: white;
+    transition: background-color 0.3s;
+    padding: 0 80px 0;
+}
+  
+.selectable:hover {
+    background-color: #00BF3A; 
+    cursor: pointer;
+}
+  
+.selectable-header:hover {
+    background-color: #00BF3A;
+}
